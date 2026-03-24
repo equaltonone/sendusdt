@@ -1,0 +1,97 @@
+.container {
+  padding: 25px 18px;
+  flex: 1;
+}
+
+.label {
+  color: #8f98a3;
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.input-box {
+  background: #1F2022;
+  border: 1px solid #2b3139;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.input-box:focus-within {
+  border: 2px solid #16c784;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #e6edf3;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #5b6572;
+}
+
+.paste-btn,
+.max-btn {
+  color: #16c784;
+  font-weight: 500;
+  font-size: 15px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  stroke: #16c784;
+  flex-shrink: 0;
+}
+
+.amount-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.amount-right span:first-child {
+  color: #9aa4af;
+}
+
+.bottom {
+  padding: 15px 18px 25px;
+}
+
+.next-btn {
+  width: 100%;
+  padding: 18px;
+  border-radius: 50px;
+  border: none;
+  font-size: 19px;
+  background: #16c784;
+  color: #121212;
+  opacity: 0.5;
+  transition: 0.2s;
+  cursor: not-allowed;
+}
+
+.next-btn.enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.next-btn.enabled:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
