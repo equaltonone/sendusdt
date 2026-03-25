@@ -13,4 +13,11 @@ body {
   background: #1F2022;
   color: white;
   -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
 }
